@@ -1,0 +1,313 @@
+html {
+    width: 100%;
+    height: 1500px;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #4d4d4d;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* COMEÇA PARTE DE CIMA DO LOGO DO SITE */
+
+header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.logoHeader {
+    width: 20%;
+    height: 100%;
+}
+
+.logoHeader img {
+    width: 100%;
+    height: 100%;
+}
+
+.siteNome {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #251E21;
+}
+
+.pirata {
+    font-family: Playfair Display, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 60px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+/* TERMINA PARTE DE CIMA DO LOGO DO SITE */
+
+/* COMEÇA PARTE DE NAVEGAÇÃO DO MENU */
+
+.menu {
+    height: 7%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #bbafae;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu a {
+    letter-spacing: 6px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-left: dashed 2px;
+    border-right: dashed 2px;
+}
+
+/* TERMINA PARTE DE NAVEGAÇÃO DO MENU */
+
+/* COMEÇA PARTE DE INFO DO USUARIO */
+
+section {
+    width: 100%;
+    height: 60%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxEdicoes {
+    width: 90%;
+    height: 90%;
+    background-color: #bbafae;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headEdicoes {
+    width: 100%;
+    height: 30%;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Playfair Display, Helvetica, sans-serif;
+}
+
+.headEdicoes img {
+    padding: 20px 0px 20px 20px;
+    border-radius: 10px;
+}
+
+.headEdicoes h2, h3 {
+    font-family: 'Comic Sans MS', "Comic Sans", cursive;
+}
+
+.headEdicoes h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 5%;
+
+}
+
+.headEdicoes h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+/* TERMINA PARTE DE INFO DO USUARIO */
+
+/* COMEÇA PARTE DA CRÍTICA DO USUARIO */
+
+form {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.divEdicoes {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Comic Sans MS', "Comic Sans", cursive;
+}
+
+.divEdicoes input[type=submit] {
+    width: 15%;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+   
+}
+
+.divEdicoes input[type=radio] {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.divEdicoes input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.divEdicoes textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.stars{
+    width: 50%;
+    height: 10%;
+    display: flex; 
+}
+.stars img{
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo{
+    display: flex;
+    width: 40%;
+}
+
+/* TERMINA PARTE DA CRÍTICA DO USUARIO */
+
+/* FOOTER DO SITE ABAIXO */
+
+footer {
+    width: 100%;
+    height: 18%;
+    background-color: #251E21;
+    display: flex;
+    flex-direction: row;
+}
+
+.formContato {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.aboutSection {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;  
+}
+
+.infoAdicionais {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #251E21;
+}
+
+.formContato input[type=text] {
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+.formContato input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: solid 2px white;
+    border-radius: 4px;
+    align-self: flex-end;
+}
+
+.formContato textarea {
+    height: 80%;
+    width: 50%;
+}
+
+footer label {
+    color: gray;
+    font-size: 50px;
+}
+footer h2 {
+    font-family: Playfair Display, Helvetica, sans-serif;
+    align-self: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer ul, li {
+    list-style-type: circle;
+    color: white;
+    letter-spacing: 5px;
+    margin: 12px 0px;
+    padding: 0px;
+    align-self: center;
+}
+
+.Logo{
+    width: 60%;
+    height: 50%;
+  
+}
+
+.telefone {    
+    height: 15%;
+}
+
+.email {
+    height: 15%;
+}

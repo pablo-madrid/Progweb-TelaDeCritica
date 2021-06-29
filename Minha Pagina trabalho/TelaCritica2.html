@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crítica</title>
+    <link rel="stylesheet" href="CSS/Critica.css">
+    <script src="JS/estrelas.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logoHeader">
+            <img src="./Assets/pirateSkull.png" alt="logoHeader">
+        </div>
+        <div class="siteNome">
+            <h1 class="pirata">CAVERNA DO PIRATA</h1>
+        </div>
+    </header>
+    <nav class="menu">
+        <a href="" id="hehe" class="hover">Filmes</a>
+        <a href="" class="hover">Séries</a>
+        <a href="" class="hover">Livros</a>
+        <a href="" class="hover">Em Cartaz</a>
+        <a href="" class="hover">Sair</a>
+    </nav>
+    <section>
+        <div class="boxEdicoes">
+            <header class="headEdicoes">
+                <img src="Assets/anon_profile.jpg" alt="Profile Picture">
+                <table>
+                    <tr>
+                        <td>
+                            <h2>Nome_de_usuário</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Nome completo</h3>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <div class="divEdicoes">
+                <form action="">
+
+                    <label>Tipo do conteúdo:</label>
+                    <div class="conteudo">
+
+                        <input type="radio" id="filme" name="tipos" value="filme" checked>
+                        <label for="filme">Filme</label>
+
+                        <input type="radio" id="serie" name="tipos" value="serie">
+                        <label for="serie">Série</label>
+
+                        <input type="radio" id="livro" name="tipos" value="livro">
+                        <label for="livro">Livro</label>
+                        
+                    </div>
+
+                    <label for="titleCrit">Título da Crítica</label>
+                    <input type="text" id="titleCrit" name="títuloCrítica" />
+
+                    <label for="obra">Obra</label>
+                    <input type="text" id="obra" name="nomeObra" />
+
+                    <div class="stars">
+                        <label>Classificação:</label>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                            <img src="img/star0.png" id="s1"></a>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(2)">
+                            <img src="img/star0.png" id="s2"></a>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(3)">
+                            <img src="img/star0.png" id="s3"></a>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(4)">
+                            <img src="img/star0.png" id="s4"></a>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(5)">
+                            <img src="img/star0.png" id="s5"></a>
+                    </div>
+
+                    <label>Crítica</label>
+                    <textarea name="Critica" cols="30" rows="10" placeholder="Escreva sua crítica aqui"></textarea>
+
+                    <input type="submit" value="Publicar" class="hover">
+            </div>
+    </section>
+    <footer>
+        <div class="formContato">
+            <form action="">
+                <h2>Contato</h2>
+                <input type="text" placeholder="Nome completo">
+
+                <input type="text" placeholder="E-mail">
+
+                <textarea name="" cols="30" rows="5" placeholder="Mensagem"></textarea>
+
+                <input type="submit" value="Enviar" class="hover">
+            </form>
+        </div>
+        <div class="aboutSection">
+            <h2>Mapa do Site</h2>
+            <ul>
+                <li><a href="">Página Inicial</a></li>
+                <li><a href="">Sobre Nós</a></li>
+                <li><a href="">Contate-Nos</a></li>
+                <li><a href="">UFMS</a></li>
+            </ul>
+        </div>
+        <div class="infoAdicionais">
+            <img src="Assets/pirateSkull.png" alt="Logo Site" class="Logo">
+            <img src="Assets/fone.png" alt="telefone" class="telefone">
+            <img src="Assets/email.png" alt="email" class="email">
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="JS/Script.js"></script>
+</body>
+
+</html>
